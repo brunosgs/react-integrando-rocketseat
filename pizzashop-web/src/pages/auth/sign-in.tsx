@@ -1,3 +1,8 @@
+import { Helmet } from "@dr.pogodin/react-helmet"
+
 export function SingIn() {
-   return <h1>Sing-in</h1>
+   return <>
+      <Helmet title="Login" />
+      <h1>Sing-in</h1>
+   </>
 }
