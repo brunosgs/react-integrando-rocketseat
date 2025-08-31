@@ -12,9 +12,9 @@ export const router = createBrowserRouter([
       children: [
          {
             path: '/',
-            element: <Dashboard />
-         }
-      ]
+            element: <Dashboard />,
+         },
+      ],
    },
    {
       path: '/',
@@ -22,8 +22,8 @@ export const router = createBrowserRouter([
       children: [
          {
             path: 'sing-in',
-            element: <SingIn />
-         }
-      ]
-   }
+            element: <SingIn />,
+         },
+      ],
+   },
 ])

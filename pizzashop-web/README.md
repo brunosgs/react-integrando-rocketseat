@@ -5,11 +5,13 @@ Este repositório contém os projetos desenvolvidos durante o curso de ReactJS, 
 ## 🚀 Como Executar
 
 1. Instale as dependencias
+
 ```bash
 npm install
 ```
 
 2. Execute o projeto
+
 ```bash
 npm run dev
 ```

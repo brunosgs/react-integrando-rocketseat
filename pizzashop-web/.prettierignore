@@ -1,0 +1,17 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Arquivos de configuração
+*.config.js
+vite.config.ts
+
+# Testes ou mocks que você não quer formatar
+*.spec.ts
+*.test.ts
+
+# Pastas específicas
+public/
