@@ -2,9 +2,11 @@
    "plugins": ["prettier-plugin-tailwindcss"],
    "tailwindStylesheet": "pizzashop-web/src/index.css",
    "singleQuote": true,
+   "jsxSingleQuote": false,
    "semi": false,
    "tabWidth": 3,
    "printWidth": 80,
    "trailingComma": "all",
-   "bracketSpacing": true
+   "bracketSpacing": true,
+   "singleAttributePerLine": true
 }
