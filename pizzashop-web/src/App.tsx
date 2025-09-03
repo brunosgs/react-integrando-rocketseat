@@ -10,11 +10,7 @@ export function App() {
    return (
       <HelmetProvider>
          <Helmet titleTemplate="%s | Pizza shopp" />
-         <Toaster
-            richColors
-            position="top-right"
-            expand={false}
-         />
+         <Toaster richColors position="top-right" expand={false} />
          <RouterProvider router={router} />
       </HelmetProvider>
    )

@@ -1,5 +1,6 @@
 import { Helmet } from '@dr.pogodin/react-helmet'
 import { useForm } from 'react-hook-form'
+import { Link } from 'react-router'
 import { toast } from 'sonner'
 
 import { Button } from '@/components/ui/button'
@@ -33,6 +34,9 @@ export function SingIn() {
       <>
          <Helmet title="Login" />
          <div className="p-8">
+            <Button variant="ghost" asChild className="absolute right-8 top-8">
+               <Link to="/sing-up">Novo estabelecimento</Link>
+            </Button>
             <div className="flex w-[350px] flex-col justify-center gap-6">
                <div className="flex flex-col gap-2 text-center">
                   <h1 className="text-2xl font-semibold tracking-tight">
@@ -48,11 +52,7 @@ export function SingIn() {
                >
                   <div className="space-y-2">
                      <Label htmlFor="email">Seu e-mail</Label>
-                     <Input
-                        id="email"
-                        type="email"
-                        {...register('email')}
-                     />
+                     <Input id="email" type="email" {...register('email')} />
                   </div>
                   <Button
                      type="submit"
